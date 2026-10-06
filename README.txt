@@ -326,3 +326,14 @@ V58 — The postcard stamp now shows a crop of Onward to Psyche (assets/home/sta
 animal-playing-cards stamp image moved to ~/addison-portfolio-v23/_originals/unused/). Favicons: the AM monogram
 in Cormorant Garamond SemiBold on paper with an ink ring (assets/icons/favicon-32.png, favicon-192.png) and a
 square apple-touch-icon.png, linked from every page.
+
+V59 — Hero disciplines read "identity, image, motion, type, story & other things" (commas via CSS). Desk kicker
+is "loose pages from the desk". On the desk, handwriting moved onto the cards (notebook list, Make it human,
+sticky note, A Few Words) and the sketch captions are now italic Cormorant. Legibility pass: body 19px, darker
+--muted (#55534a) and --hand (#963b22), smallest mono labels +1px, smallest pen notes 17px.
+
+V60 — Typefaces: EB Garamond replaces Cormorant Garamond (main serif) and Mansalva replaces Nothing You Could Do
+(handwriting, chosen as legible but still loose and inky); IBM Plex Mono stays. Contrast fixes on the sage band (muted #e6e9dc, pen/accent #f6dba0) and kraft band (pen #82301a).
+The favicon PNGs were drawn with Cormorant and haven't been redrawn.
+V61 — Serif text set at EB Garamond Regular (400) instead of Medium; headings stay 500 and <strong> stays 600.
+Contrast comes from colour instead: --muted #47453d, --hand #8a321b. Removed the "make the ugly version." note.
