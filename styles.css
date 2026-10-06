@@ -314,7 +314,7 @@ figure{margin:0}
 .contact .wrap{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(32px,6vw,96px)}
 .contact h2{margin-bottom:24px}
 .contact-intro p:not(.kicker){font:500 21px/1.45 var(--serif);max-width:24em}
-.contact-intro .alt{font:400 14px/1.5 var(--sans)!important;color:var(--muted);margin-top:24px}
+.contact-intro .alt{font:italic 500 18px/1.5 var(--serif)!important;color:var(--muted);margin-top:24px;max-width:26em}
 .contact-intro a{color:var(--accent)}
 .contact-form{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:28px 24px}
 .contact-form label{display:flex;flex-direction:column;gap:8px;font:500 13px/1 var(--sans);color:var(--muted)}
