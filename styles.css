@@ -472,15 +472,15 @@ figcaption{margin-top:12px;font:400 17px/1.3 var(--pen);color:var(--muted);max-w
 /* project themes */
 .theme-midnight{--paper:#121110;--paper-2:#1c1a18;--ink:#ece6d9;--muted:#a79f90;--line:rgba(236,230,217,.16);--accent:#f2c230;--hand:#e7b95e;background:#121110}
 /* case studies: flat page colour (--paper) + the canvas as a transparent grain, so any colour gets the texture */
-body[class*="theme-"]{background:var(--paper)}
+body[class*="theme-"]{background:radial-gradient(140% 90% at 50% -20%,color-mix(in srgb,var(--paper),#fff var(--glow,30%)) 0%,var(--paper) 62%) fixed,var(--paper)}
 body[class*="theme-"]::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:url('assets/textures/canvas-grain.png') repeat;background-size:320px 319px;opacity:var(--grain,.65)}
 body[class*="theme-"] .site-header{background:color-mix(in srgb,var(--paper) 90%,transparent)}
-.theme-midnight,.theme-c4d,.theme-discovery,.theme-psyche,.theme-spud,.theme-mental{--grain:.8}
+.theme-midnight,.theme-c4d,.theme-discovery,.theme-psyche,.theme-spud,.theme-mental,.theme-specimen{--grain:.8;--glow:7%}
 .theme-midnight .site-header{background:rgba(18,17,16,.9)}
 .theme-c4d{--paper:#16141d;--paper-2:#201d2a;--ink:#ece8f4;--muted:#a49db6;--line:rgba(236,232,244,.16);--accent:#a98bff;--hand:#c3a6ff;background:#16141d}
 .theme-c4d .site-header{background:rgba(22,20,29,.9)}
 .theme-c4d .shots img{background:#2b2935}
-.theme-deerfall{--paper:#a9b09c;--ink:#18202c;--muted:#353a2e;--line:rgba(24,32,44,.24);--accent:#2c4230;--hand:#5f290a}
+.theme-deerfall{--paper:#a1af8e;--ink:#18202c;--muted:#353a2e;--line:rgba(24,32,44,.24);--accent:#2c4230;--hand:#5f290a}
 .cast{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(16px,2vw,28px);margin:0 0 clamp(28px,3vw,40px);padding:0;list-style:none}
 .cast li{padding:16px 0 0;border-top:2px solid var(--accent);font:500 17px/1.4 var(--serif);color:var(--muted)}
 .cast li.ghost{border-top-color:#3d374b}
@@ -504,21 +504,21 @@ body[class*="theme-"] .site-header{background:color-mix(in srgb,var(--paper) 90%
 .proto-frame{position:relative;aspect-ratio:4/3;background:#2f2d4f;box-shadow:var(--shadow)}
 .proto-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .proto-link{margin:18px 0 0}
-.theme-avatar{--paper:#dde4e8}
-.theme-hold{--paper:#d3e4e4}
-.theme-mom{--paper:#efd8cf}
-.theme-hear{--paper:#e8e6e1}
+.theme-avatar{--paper:#c6d6df}
+.theme-hold{--paper:#a9cdc9}
+.theme-mom{--paper:#e9c0ad}
+.theme-hear{--paper:#ebe1cc}
 .theme-art.theme-mental{--paper:#2b1816;--paper-2:#3a211e;--ink:#f0e4dc;--muted:#c4aaa0;--line:rgba(240,228,220,.18);--accent:#e08a6a;--hand:#e7a184}
 .theme-art{--ink:#2a2421;--muted:#544c46;--line:rgba(42,36,33,.18);--accent:#9a3b2a;--hand:#9a3b2a}
 .case-cover--square{max-width:min(760px,100%);margin-inline:auto}
-.theme-onward{--paper:#f2dfcb;--ink:#1c2b3c;--muted:#55504a;--line:rgba(28,43,60,.18);--accent:#d9622b;--hand:#c2521f}
+.theme-onward{--paper:#f0caa0;--ink:#1c2b3c;--muted:#55504a;--line:rgba(28,43,60,.18);--accent:#d9622b;--hand:#a3431a}
 .theme-discovery{--paper:#0f2550;--paper-2:#16306a;--ink:#e6eefb;--muted:#9db2d8;--line:rgba(230,238,251,.18);--accent:#9cc1ff;--hand:#bcd4ff;background:#0f2550}
 .theme-discovery .site-header{background:rgba(15,37,80,.9)}
-.theme-specimen{--paper:#dcdad5;--ink:#1d1c1a;--muted:#524e48;--line:rgba(29,28,26,.18);--accent:#b2622f;--hand:#a4552a}
+.theme-specimen{--paper:#1f1d1b;--paper-2:#2a2724;--ink:#ece6dc;--muted:#ada497;--line:rgba(236,230,220,.16);--accent:#d08a55;--hand:#e09a62}
 .case-cover--poster{max-width:min(620px,100%);margin-inline:auto}
 .case-cover--poster img{background:none;box-shadow:var(--shadow)}
-.theme-playa{--paper:#d8e9e5;--ink:#173634;--muted:#3f5555;--line:rgba(23,54,52,.18);--accent:#3c8582;--hand:#c25a76}
-.theme-pooprint{--paper:#e7dcc9;--ink:#3d2415;--muted:#5c4c3f;--line:rgba(61,36,21,.18);--accent:#6f8f32;--hand:#8a4a22}
+.theme-playa{--paper:#bde0d7;--ink:#173634;--muted:#3f5555;--line:rgba(23,54,52,.18);--accent:#2f706d;--hand:#a3405c}
+.theme-pooprint{--paper:#e9d5ad;--ink:#3d2415;--muted:#5c4c3f;--line:rgba(61,36,21,.18);--accent:#6f8f32;--hand:#8a4a22}
 
 /* ==========================================================================
    Collected details — borrowed from paper, film and post
@@ -676,7 +676,7 @@ body[class*="theme-"] .site-header{background:color-mix(in srgb,var(--paper) 90%
 .story-columns p{break-inside:avoid-column}
 .story-columns strong{font-weight:600}
 .dropcap::first-letter{float:left;margin:.05em .08em 0 0;font:500 4.2em/.78 var(--serif);color:var(--oxblood)}
-.theme-psyche .dropcap::first-letter,.theme-spud .dropcap::first-letter,.theme-mental .dropcap::first-letter,.theme-c4d .dropcap::first-letter,.theme-discovery .dropcap::first-letter,.theme-midnight .dropcap::first-letter{color:var(--accent)}
+.theme-psyche .dropcap::first-letter,.theme-spud .dropcap::first-letter,.theme-mental .dropcap::first-letter,.theme-c4d .dropcap::first-letter,.theme-discovery .dropcap::first-letter,.theme-midnight .dropcap::first-letter,.theme-specimen .dropcap::first-letter{color:var(--accent)}
 .story-columns .signoff{margin:6px 0 0;text-align:right;text-align-last:right;font-size:26px;line-height:1.2;transform:rotate(-2deg);transform-origin:right;hyphens:none}
 
 /* Art: Addison's "Avatar" triptych as the backdrop, 880px tall so the reaching hands land in the
@@ -778,7 +778,7 @@ body[class*="theme-"] .site-header{background:color-mix(in srgb,var(--paper) 90%
 .theme-psyche{--paper:#0f1117;--paper-2:#181b23;--ink:#e9e6df;--muted:#9aa0ad;--line:rgba(233,230,223,.16);--accent:#f0b34a;--hand:#f0b34a;background:#0f1117}
 .theme-psyche .site-header{background:rgba(15,17,23,.9)}
 .theme-psyche .poem:not(.poem-dark){--hand:#8a5512;--muted:#5f584e;color:#1d1b17}
-.theme-incarnate{--paper:#e5e3ee;--ink:#2b2a33;--muted:#5d5866;--line:rgba(43,42,51,.16);--accent:#6f7fb3;--hand:#7a6a9a}
+.theme-incarnate{--paper:#cdd3ea;--ink:#2b2a33;--muted:#5d5866;--line:rgba(43,42,51,.16);--accent:#5a6aa3;--hand:#605283}
 
 /* ==========================================================================
    Responsive

@@ -316,3 +316,8 @@ Publishing — the site is the GitHub repo addi-mars/portfolio, served by GitHub
 https://addi-mars.github.io/portfolio/. Commit and push to main (GitHub Desktop works) and the live site
 updates within a couple of minutes. Source files (_originals/) and local preview tools (.claude/) are kept out
 of the repo by .gitignore; the originals live in ~/addison-portfolio-v23/_originals/.
+
+V57 — Case-study page colours pushed richer and tied to each piece (sea-blue Avatar, teal Hold, terracotta
+Make Our Mark, bone Hear, apricot Onward, aqua Playa, oat PooPrint, forget-me-not Incarnate, moss Deerfall);
+Specimen is now dark charcoal with copper. Every themed page gets a soft light falloff from the top
+(radial gradient, --glow) under the canvas grain. Pen-note colours darkened where contrast was low.
