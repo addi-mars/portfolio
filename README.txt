@@ -318,6 +318,6 @@ updates within a couple of minutes. Source files (_originals/) and local preview
 of the repo by .gitignore; the originals live in ~/addison-portfolio-v23/_originals/.
 
 V57 — Case-study page colours pushed richer and tied to each piece (sea-blue Avatar, teal Hold, terracotta
-Make Our Mark, bone Hear, apricot Onward, aqua Playa, oat PooPrint, forget-me-not Incarnate, moss Deerfall);
+Make Our Mark, bone Hear, apricot Onward, aqua Playa, oat PooPrint, butter-yellow Incarnate, moss Deerfall);
 Specimen is now dark charcoal with copper. Every themed page gets a soft light falloff from the top
 (radial gradient, --glow) under the canvas grain. Pen-note colours darkened where contrast was low.

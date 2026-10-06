@@ -778,7 +778,7 @@ body[class*="theme-"] .site-header{background:color-mix(in srgb,var(--paper) 90%
 .theme-psyche{--paper:#0f1117;--paper-2:#181b23;--ink:#e9e6df;--muted:#9aa0ad;--line:rgba(233,230,223,.16);--accent:#f0b34a;--hand:#f0b34a;background:#0f1117}
 .theme-psyche .site-header{background:rgba(15,17,23,.9)}
 .theme-psyche .poem:not(.poem-dark){--hand:#8a5512;--muted:#5f584e;color:#1d1b17}
-.theme-incarnate{--paper:#cdd3ea;--ink:#2b2a33;--muted:#5d5866;--line:rgba(43,42,51,.16);--accent:#5a6aa3;--hand:#605283}
+.theme-incarnate{--paper:#f0e2a6;--ink:#2b2a33;--muted:#5d5866;--line:rgba(43,42,51,.16);--accent:#5a6aa3;--hand:#605283}
 
 /* ==========================================================================
    Responsive
