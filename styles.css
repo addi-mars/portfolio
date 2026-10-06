@@ -637,7 +637,7 @@ body[class*="theme-"] .site-header{background:color-mix(in srgb,var(--paper) 90%
 .postcard .pc-side{display:flex;flex-direction:column;gap:22px}
 .pc-stamp{position:relative;align-self:flex-end;width:150px;height:96px;margin-bottom:6px}
 .stamp{position:absolute;right:0;top:0;width:76px;height:92px;transform:rotate(3deg);
-  background:url('assets/art/animal-playing-cards.jpg') 47% 55%/260% auto no-repeat;border:6px solid #fbf8f1;
+  background:#2a2a48 url('assets/home/stamp-onward.jpg') center/cover no-repeat;border:6px solid #fbf8f1;
   -webkit-mask:radial-gradient(circle 3.5px at 50% 50%,transparent 97%,#000) -3.5px -3.5px/9px 9px,linear-gradient(#000,#000) 3px 3px/calc(100% - 6px) calc(100% - 6px) no-repeat;
           mask:radial-gradient(circle 3.5px at 50% 50%,transparent 97%,#000) -3.5px -3.5px/9px 9px,linear-gradient(#000,#000) 3px 3px/calc(100% - 6px) calc(100% - 6px) no-repeat}
 .postmark{position:absolute;z-index:2;left:6px;top:16px;width:120px;height:64px;fill:none;stroke:rgba(35,25,20,.72);stroke-width:1.6;transform:rotate(-8deg);mix-blend-mode:multiply}

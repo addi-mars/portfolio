@@ -321,3 +321,8 @@ V57 — Case-study page colours pushed richer and tied to each piece (sea-blue A
 Make Our Mark, bone Hear, apricot Onward, aqua Playa, oat PooPrint, butter-yellow Incarnate, moss Deerfall);
 Specimen is now dark charcoal with copper. Every themed page gets a soft light falloff from the top
 (radial gradient, --glow) under the canvas grain. Pen-note colours darkened where contrast was low.
+
+V58 — The postcard stamp now shows a crop of Onward to Psyche (assets/home/stamp-onward.jpg; the old
+animal-playing-cards stamp image moved to ~/addison-portfolio-v23/_originals/unused/). Favicons: the AM monogram
+in Cormorant Garamond SemiBold on paper with an ink ring (assets/icons/favicon-32.png, favicon-192.png) and a
+square apple-touch-icon.png, linked from every page.
