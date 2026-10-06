@@ -311,3 +311,8 @@ _originals/hold-week-five/.
   "desk on wide screens" block in styles.css); tablet and phone layouts are unchanged.
   The archive's "On the desk" chapter (in-progress placeholders) was removed; the archive now has three
   chapters and 23 entries. work/identity-studies.html still exists and is linked only from Deerfall.
+
+Publishing — the site is the GitHub repo addi-mars/portfolio, served by GitHub Pages at
+https://addi-mars.github.io/portfolio/. Commit and push to main (GitHub Desktop works) and the live site
+updates within a couple of minutes. Source files (_originals/) and local preview tools (.claude/) are kept out
+of the repo by .gitignore; the originals live in ~/addison-portfolio-v23/_originals/.
