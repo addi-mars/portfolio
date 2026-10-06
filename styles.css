@@ -203,8 +203,6 @@ figure{margin:0}
 /* hero */
 .hero{padding-block:clamp(40px,6vw,88px) clamp(64px,8vw,112px)}
 .hero .wrap{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(32px,5vw,80px);align-items:center}
-.hero-kicker{display:flex;flex-wrap:wrap;gap:2px 14px;margin:0 0 28px;padding:0;list-style:none;font-size:23px;transform:rotate(-2deg);transform-origin:left}
-.hero-kicker li:nth-last-child(n+3)::after{content:","}
 .hero h1{font-size:clamp(64px,8.4vw,136px);line-height:.8;letter-spacing:-.045em;text-transform:uppercase}
 .hero-role{margin:22px 0 0;font:italic 400 clamp(24px,2.4vw,34px)/1.1 var(--serif)}
 .hero-lede{margin:28px 0 0;font:400 21px/1.45 var(--serif);max-width:26em}

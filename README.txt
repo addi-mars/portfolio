@@ -337,3 +337,4 @@ V60 — Typefaces: EB Garamond replaces Cormorant Garamond (main serif) and Mans
 The favicon PNGs were drawn with Cormorant and haven't been redrawn.
 V61 — Serif text set at EB Garamond Regular (400) instead of Medium; headings stay 500 and <strong> stays 600.
 Contrast comes from colour instead: --muted #47453d, --hand #8a321b. Removed the "make the ugly version." note.
+V62 — Removed the handwritten disciplines line above the hero name.
