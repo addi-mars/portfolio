@@ -640,7 +640,7 @@ body[class*="theme-"] .site-header{background:color-mix(in srgb,var(--paper) 90%
   background:#2a2a48 url('assets/home/stamp-onward.jpg') center/cover no-repeat;border:6px solid #fbf8f1;
   -webkit-mask:radial-gradient(circle 3.5px at 50% 50%,transparent 97%,#000) -3.5px -3.5px/9px 9px,linear-gradient(#000,#000) 3px 3px/calc(100% - 6px) calc(100% - 6px) no-repeat;
           mask:radial-gradient(circle 3.5px at 50% 50%,transparent 97%,#000) -3.5px -3.5px/9px 9px,linear-gradient(#000,#000) 3px 3px/calc(100% - 6px) calc(100% - 6px) no-repeat}
-.postmark{position:absolute;z-index:2;left:6px;top:16px;width:120px;height:64px;fill:none;stroke:rgba(35,25,20,.72);stroke-width:1.6;transform:rotate(-8deg);mix-blend-mode:multiply}
+.postmark{position:absolute;z-index:2;left:-14px;top:40px;width:120px;height:64px;fill:none;stroke:rgba(35,25,20,.5);stroke-width:1.3;transform:rotate(-6deg);mix-blend-mode:multiply}
 .postcard .form-actions{grid-column:2;margin-top:28px}
 .postcard .button{border-color:var(--ink);color:var(--ink)}
 .postcard .button:hover{background:var(--ink);color:#f6efe1}
@@ -862,6 +862,7 @@ body[class*="theme-"] .site-header{background:color-mix(in srgb,var(--paper) 90%
   .postcard .pc-side{order:1}
   .postcard .form-actions{grid-column:1;order:3}
   .pc-stamp{position:absolute;top:14px;right:14px;width:120px;margin:0}
+  .postmark{left:-44px}
   .postcard .pc-side label:first-of-type{margin-top:96px}
   :root{--header:58px}
   .site-nav{gap:16px;font-size:12px}
