@@ -338,3 +338,9 @@ The favicon PNGs were drawn with Cormorant and haven't been redrawn.
 V61 — Serif text set at EB Garamond Regular (400) instead of Medium; headings stay 500 and <strong> stays 600.
 Contrast comes from colour instead: --muted #47453d, --hand #8a321b. Removed the "make the ugly version." note.
 V62 — Removed the handwritten disciplines line above the hero name.
+V63 — Two typefaces only: the handwriting face is gone. Kickers, notes, captions and the signoff are EB Garamond
+italic (no tilt); desk card text is upright Garamond. About text is two separate ragged-right columns (no
+justification or hyphenation, text-wrap:pretty). Google Fonts now loads EB Garamond + IBM Plex Mono only.
+V64 — Two-typeface system: kickers are Garamond italic with a short hairline rule; balanced headings and
+text-wrap:pretty everywhere; inline links get a fine offset underline; quotes hang their opening mark; text
+selection uses the oxblood pen colour. Readability floor: Garamond italic ≥17px, Plex Mono ≥12px. axe: 0 violations.
