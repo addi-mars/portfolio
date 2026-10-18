@@ -344,3 +344,47 @@ justification or hyphenation, text-wrap:pretty). Google Fonts now loads EB Garam
 V64 — Two-typeface system: kickers are Garamond italic with a short hairline rule; balanced headings and
 text-wrap:pretty everywhere; inline links get a fine offset underline; quotes hang their opening mark; text
 selection uses the oxblood pen colour. Readability floor: Garamond italic ≥17px, Plex Mono ≥12px. axe: 0 violations.
+V65 — The desk behaves like a real desk, with no written instructions. Everywhere: click or tap a page to pick it up
+and look closer (it lifts to the middle of the screen, sharp up to the scan's own resolution, caption set below;
+click, Esc or scroll puts it back). Wide screens with a mouse: pages lift on hover, drag with a swing from the
+point they're held, slide when thrown and stay inside the folder; a tin of four pushpins sits in the folder —
+drag a pin onto a page to pin it (a pinned page only turns around its pin), pull it out to free the page.
+Keyboard: Enter looks closer, arrows move, P pins/unpins (screen-reader help text only). Nothing is saved between
+visits. Reduced motion skips the animations.
+V66 — Desk sheets: each sketch is one sheet with its question written in the bottom margin (no captions floating
+on the folder). Tape now does something: a taped sheet strains against it when pulled, then the tape peels off
+and the sheet comes free (arrow keys peel it too). Look closer lifts the whole sheet, question included.
+V67 — The desk is a sandbox (tablet width and up; it used to need 1000px+, which is why it looked switched off in a
+narrower window). A row of supplies sits along the bottom of the folder, no labels: a tin of pushpins, a tape
+dispenser, a pad of sticky notes, a KEEP rubber stamp and a wire wastebasket. Pull a pin, strip of tape or stamp off
+and drop it on a page (it sticks in the page's own coordinates and turns with it) or on the folder. Tear a note off
+the pad and type on it. Drop pins, tape or your notes in the wastebasket to throw them away. One pin = the page turns
+around it; two pins = it's held still; tape holds until pulled hard, then peels. With a mouse the pages also drag,
+swing and slide. Keyboard: Enter looks closer, arrows move, P pin, T tape. Nothing is saved between visits.
+V68 — Sandbox play: swirl a page round fast (about a loop and a half) and it crumples into a paper ball that rolls
+and spins when thrown; click a ball to smooth it out. Notes can be crumpled and binned; Addison's own pages bounce off
+the wastebasket rim instead. The rubber stamp is picked up and used: click it to pick it up (it becomes the cursor),
+click to press a KEEP mark — each press uses ink until it fades — press it on the ink pad to re-ink, click its spot on
+the shelf (or Esc) to put it down. The wastebasket is now a solid office bin with paper sticking out, and clicking it
+clears the desk: everything added goes in, crumpled pages smooth out, pages glide home and their tape comes back.
+V69 — Desk sandbox, round two. Folding: swirl a page = paper ball, shake it side to side = paper plane (glides, points
+where it flies), shake it up and down = origami crane (flaps while carried); click any folded page to unfold it.
+Throw or drop folded paper at the wastebasket and it arcs in; the basket starts empty and fills with what's thrown
+(balls in each page's colour, pins, tape). Stamps: a rack of four (KEEP, DELETE, IN PROGRESS, CHANGE); pick one up,
+it starts dry — press it on the ink pad to ink it, each press fades; click the empty pad to change ink colour
+(oxblood, navy, green, violet, black); click the rack to put the stamp away (Esc and right-click too). "Reset desk"
+appears in the folder's top-right corner once anything has changed and puts everything back.
+V70 — Origami is random: each up-and-down shake folds the page into a crane, boat, fox, frog or butterfly (never the same twice in a row). Cranes and butterflies flap while carried; the others bob.
+V71 — More play. Origami has 13 random folds (crane, swan, boat, fish, whale, fox, cat, rabbit, frog, butterfly,
+heart, star, tulip). A coffee mug sits on the shelf: put it down anywhere, and picking it up again leaves a coffee
+ring on whatever it stood on; drop it on the bin and it just goes home. Clicking the wastebasket tidies the desk
+(the "Reset desk" button is gone): the clutter flies in, and any real pages that were thrown away pop back out,
+arc home and unfold; the visitor's own rubbish stays in the bin. The stamp rack catches a stamp from further away
+and lights up when it will.
+V72 — The coffee mug is redrawn (glazed rim and handle, coffee with a slowly turning crema, a wisp of steam). Move it too fast and coffee sloshes and splashes out behind it onto whatever is underneath, the mug emptying as it goes; an empty mug leaves only a faint ring. It's topped up whenever it goes back on its spot (or the desk is tidied, which also wipes the spills).
+V73 — Sandbox reined in: all supplies sit in one shallow inset tray at a consistent small scale (about 0.6x) with matching shadows. From 1280px wide the tray fits the folder's empty bottom-left corner, so the folder is no taller than before the sandbox; narrower it adds a modest 118px strip. The mug is scaled to match and stays on its spot as the folder settles.
+V74 — The sandbox at every size. ≥1001px: a two-row tray (scale .84) in the folder's empty bottom-left corner —
+the folder doesn't grow. 760–1000px: one row along the folder's foot (scale .76, 132px). <760px (phones): a compact
+two-row tray (zoom .56) that rides along at the bottom of the screen while the desk is in view, so supplies are
+always in reach. Touch: tap a page to look closer, swipe to scroll, press and hold (~0.4s) to pick a page up;
+supplies, notes and the mug drag straight away. The mug's home is inside the tray, so it travels with it.
