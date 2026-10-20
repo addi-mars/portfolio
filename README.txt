@@ -388,3 +388,26 @@ the folder doesn't grow. 760–1000px: one row along the folder's foot (scale .7
 two-row tray (zoom .56) that rides along at the bottom of the screen while the desk is in view, so supplies are
 always in reach. Touch: tap a page to look closer, swipe to scroll, press and hold (~0.4s) to pick a page up;
 supplies, notes and the mug drag straight away. The mug's home is inside the tray, so it travels with it.
+V75 — New case study: work/technoblade-pigstep.html (Technoblade × Pigstep, three 60-second motion studies), built
+from Addison's Figma case-study file. Copy is theirs, verbatim. Videos re-encoded from the 150 MB masters to 720p
+H.264 (~14 MB each) in assets/projects/technoblade-pigstep/; 14 version stills from the Figma "journey". Theme
+.theme-pigstep (blood black, bone, gold). Added to the archive as Design & motion no. 02 (entries renumbered).
+V76 — Technoblade × Pigstep expanded: a series overview (three cards linking down), then a full section per study —
+its film, its description, and "the story, beat by beat": eight stills pulled from the master at key moments
+(s0N-beat-1…8.jpg), captioned with the film's own on-screen lines; clicking a beat plays the film from that moment.
+Thumbnail: the Study 03 dossier page ("At large", "who is this?"), whole frame on black. The local preview server now serves byte ranges so videos
+can be seeked (GitHub Pages already does).
+V77 — Selected work: Technoblade × Pigstep replaces PooPrint (now archive-only). Cards: Midnight Mass, Deerfall, Playa Bowls Kiosk, Technoblade × Pigstep.
+V78 — Technoblade × Pigstep shows its process. Each study gets a "Making it" block after its story beats, from
+~/Downloads/Technoblade/Case Study/assets: Study 01 — the storyboard board (five acts with timings, and its line
+"A system attempts to contain a legend…"), rotoscoping source → threshold → tint, the repeater delay map, IM Fell,
+style frames; Study 02 — skin → face → cube net → letter mosaic, Monocraft, style frames; Study 03 — photographed
+paper textures, American Typewriter, style frames. Pipeline shows the Pigstep beat map. The auto-traced
+"storyboard sketch" images (p*sb_*_sketch.png) were left out: they're traced from finished frames, not drawn first.
+V79 — Technoblade × Pigstep rebuilt from the Figma file's pages 01–03 (nodes 3:2, 3:3, 3:4), replacing V78's "Making it"
+blocks and the frame-grab "beat by beat" rows. Each study now follows its Figma page: dek, film, Concept (quote, three
+pillars, palette, type specimens), Story spine (envelope + clickable acts), Storyboard (12 lo-fi wireframe panels
+exported from Figma — each seeks the film), Style frames, Process (iterations + four technique cards), In After Effects
+(collapsed <details>: comp tree, expression rigs, effect stacks, effect counts) and Reflection. Copy is verbatim from
+Figma. The separate "Glitch Storyboard" board image is NOT used. Type specimens are images, so the site keeps two
+typefaces. Diagrams/panels were cropped from 2× exports of each page frame (s0N-sb-*, s0N-proc-*, s0N-comptree, s0N-type-*).

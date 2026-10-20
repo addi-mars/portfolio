@@ -1,11 +1,11 @@
 /* ==========================================================================
-   Addison Mayhew — portfolio
+   Addison Mayhew—portfolio
 
    A paper-and-paint system: cream canvas, colour bands with torn edges,
    work shown as taped prints, notes written in pen. Under it, a strict
    grid and two typefaces with one job each:
-     serif  (EB Garamond) — headlines and Addison's own words
-     mono   (IBM Plex Mono)      — labels, metadata, interface
+     serif  (EB Garamond)—headlines and Addison's own words
+     mono   (IBM Plex Mono)—labels, metadata, interface
 
    Order: tokens → base → materials → layout → home → salon wall →
           archive → case studies → responsive
@@ -217,7 +217,7 @@ figure{margin:0}
 .hero-work{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));grid-template-rows:repeat(12,minmax(0,1fr));aspect-ratio:1/.95;margin-bottom:36px}
 .hero-work figure{position:relative;min-width:0}
 .hero-work a{display:block;text-decoration:none}
-/* hero: three pieces with real scale contrast — the reel, one large print, one small accent */
+/* hero: three pieces with real scale contrast—the reel, one large print, one small accent */
 .hero-work{aspect-ratio:1/1.02}
 .hw-kraft{--c:#c7a46f;position:relative;z-index:0;grid-column:1/8;grid-row:6/13;margin:0 2% -2% -10%;pointer-events:none;transform:rotate(-3deg);filter:drop-shadow(0 1px 0 rgba(255,255,255,.9)) drop-shadow(0 2px 2px rgba(60,40,20,.18)) drop-shadow(0 22px 32px rgba(60,40,20,.18))}
 .hw-kraft::after{content:"";position:absolute;inset:0;clip-path:var(--torn-2);background:radial-gradient(120% 90% at 30% 20%,rgba(255,240,210,.35),transparent 60%),repeating-linear-gradient(97deg,rgba(90,60,25,.05) 0 1px,transparent 1px 5px);mix-blend-mode:multiply}
@@ -333,7 +333,7 @@ figure{margin:0}
 .form-status.error{color:var(--accent)}
 
 /* ==========================================================================
-   Archive — a catalogue: every entry numbered, one row each, with a link
+   Archive—a catalogue: every entry numbered, one row each, with a link
    to its case study. Index (ruled list) or Grid (contact sheet).
    ========================================================================== */
 .archive-hero{padding-block:clamp(48px,6vw,88px) clamp(28px,3vw,40px)}
@@ -382,7 +382,7 @@ a.e-row:hover .e-thumb img{transform:scale(1.05)}
 a.e-row:hover .e-title{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:5px}
 a.e-row:hover .e-go{transform:translateX(4px)}
 
-/* grid: a contact sheet — same entries, same order */
+/* grid: a contact sheet—same entries, same order */
 main[data-view="grid"] .e-head{display:none}
 main[data-view="grid"] .entries{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(28px,3vw,44px) clamp(18px,2vw,28px)}
 main[data-view="grid"] .e-row{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"thumb thumb" "no no" "name name" "kind go";align-items:baseline;gap:8px 12px;height:100%;padding:0;border:0;align-content:start}
@@ -523,7 +523,7 @@ body[class*="theme-"] .site-header{background:color-mix(in srgb,var(--paper) 90%
 .theme-pooprint{--paper:#e9d5ad;--ink:#3d2415;--muted:#5c4c3f;--line:rgba(61,36,21,.18);--accent:#6f8f32;--hand:#8a4a22}
 
 /* ==========================================================================
-   Collected details — borrowed from paper, film and post
+   Collected details—borrowed from paper, film and post
    ========================================================================== */
 
 /* typewriter labels for metadata: the "filed" layer under the pen notes */
@@ -625,7 +625,7 @@ body[class*="theme-"] .site-header{background:color-mix(in srgb,var(--paper) 90%
 }
 
 
-/* desk sandbox — pick a page up to look closer; from tablet width up, pull pins, tape, notes and the stamp off
+/* desk sandbox—pick a page up to look closer; from tablet width up, pull pins, tape, notes and the stamp off
    the supplies and drop them on the pages; with a mouse the pages themselves can be moved and thrown */
 .vh{position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap}
 .desk .scrap{cursor:zoom-in;-webkit-tap-highlight-color:transparent}
@@ -990,7 +990,7 @@ body[class*="theme-"] .site-header{background:color-mix(in srgb,var(--paper) 90%
 .mail .postcard{transform:rotate(-2deg)}
 
 /* ==========================================================================
-   Books — poetry set as poetry, section openers, the Psyche Inspired credit
+   Books—poetry set as poetry, section openers, the Psyche Inspired credit
    ========================================================================== */
 .poem{margin:0;padding:clamp(28px,4vw,48px) clamp(24px,4vw,56px);background:#fbf8f1 var(--canvas);background-size:320px 319px;background-blend-mode:multiply;box-shadow:var(--shadow);color:#1d1b17}
 .poem h3{margin:0 0 22px;font:500 12px/1.3 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
@@ -1030,6 +1030,120 @@ body[class*="theme-"] .site-header{background:color-mix(in srgb,var(--paper) 90%
 .theme-psyche .site-header{background:rgba(15,17,23,.9)}
 .theme-psyche .poem:not(.poem-dark){--hand:#8a5512;--muted:#5f584e;color:#1d1b17}
 .theme-incarnate{--paper:#f0e2a6;--ink:#2b2a33;--muted:#5d5866;--line:rgba(43,42,51,.16);--accent:#5a6aa3;--hand:#605283}
+.theme-pigstep{--paper:#100d0d;--paper-2:#1b1716;--ink:#ece4d7;--muted:#a69d91;--line:rgba(236,228,215,.16);--accent:#e6bd25;--hand:#e6bd25;--grain:.8;--glow:6%}
+.theme-pigstep .dropcap::first-letter{color:var(--accent)}
+/* Technoblade × Pigstep: three studies, a palette, the version journey */
+.series{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(16px,2vw,28px);margin:0;padding:0;list-style:none}
+.series a{display:block;text-decoration:none}
+.series img{width:100%;aspect-ratio:16/9;object-fit:cover;box-shadow:var(--shadow);transition:transform .35s cubic-bezier(.3,1.4,.5,1)}
+.series a:hover img{transform:translateY(-4px)}
+.series .label{display:block;margin:14px 0 6px}
+.series-title{font:400 clamp(24px,2.2vw,30px)/1.1 var(--serif)}
+.series a:hover .series-title{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:5px}
+.study-kicker{margin:0 0 10px;color:var(--accent)}
+.study-film video{width:100%;background:#000;box-shadow:var(--shadow)}
+.beat{position:relative;display:block;width:100%;padding:0;border:0;background:none;cursor:pointer}
+.beat img{width:100%;aspect-ratio:16/9;object-fit:cover;background:#000;transition:filter .25s ease,transform .3s ease}
+.beat:hover img{filter:brightness(1.08);transform:translateY(-3px)}
+.beat::after{content:"";position:absolute;inset:auto auto 10px 10px;width:0;height:0;border-left:11px solid #ece4d7;border-top:7px solid transparent;border-bottom:7px solid transparent;opacity:0;transition:opacity .2s ease;filter:drop-shadow(0 1px 2px rgba(0,0,0,.6))}
+.beat:hover::after,.beat:focus-visible::after{opacity:1}
+.beat-time{position:absolute;right:8px;bottom:8px;padding:4px 7px;border-radius:3px;background:rgba(16,13,13,.78);font:500 12px/1 var(--mono);letter-spacing:.06em;color:#ece4d7}
+.study-section .case-body>.prose+.study-film{margin-top:clamp(24px,3vw,36px)}
+/* making it: process under each study */
+.study-film figcaption{margin-top:10px;color:var(--muted)}
+.study-sub{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 24px;margin:clamp(80px,8vw,128px) 0 clamp(28px,3vw,40px);padding-bottom:14px;border-bottom:1px solid var(--line);font:400 clamp(30px,3vw,42px)/1.1 var(--serif);letter-spacing:-.015em;color:var(--ink)}
+.study-sub span{font:500 12px/1.4 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.study-quote{margin:0 0 clamp(40px,4.5vw,64px);max-width:28em;padding-left:clamp(18px,2vw,28px);border-left:2px solid var(--accent)}
+.study-quote p{margin:0;font:italic 400 clamp(24px,2.4vw,34px)/1.25 var(--serif);color:var(--ink)}
+.study-lede{margin:0 0 clamp(28px,3vw,40px);max-width:42em;font:400 20px/1.55 var(--serif);color:var(--ink)}
+.pillars,.reflect{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(28px,3.4vw,52px)}
+.reflect{grid-template-columns:repeat(2,minmax(0,1fr))}
+.pillars .label,.reflect .label{margin:0 0 14px;padding-bottom:10px;border-bottom:1px solid var(--line);color:var(--accent)}
+.pillars p:not(.label),.reflect p:not(.label){margin:0;font:400 18px/1.55 var(--serif);color:var(--ink)}
+.study-group{margin-top:clamp(48px,5vw,72px)}
+.group-label{margin:clamp(40px,4.5vw,64px) 0 18px;font:500 12px/1.3 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.study-group>.group-label,.study-sub+.group-label,.study-lede+.group-label{margin-top:0}
+.study-palette{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));margin:0;padding:0;list-style:none;font:400 17px/1.25 var(--serif);color:var(--ink)}
+.study-palette li{min-width:0}
+.study-palette span{display:block;height:clamp(64px,7vw,96px);margin:0 0 14px;box-shadow:inset 0 0 0 1px rgba(236,228,215,.12)}
+.study-palette li:first-child span{border-radius:3px 0 0 3px}.study-palette li:last-child span{border-radius:0 3px 3px 0}
+.study-palette code{display:block;margin-top:6px;font:400 12px/1 var(--mono);letter-spacing:.04em;color:var(--muted)}
+.type-specs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:clamp(20px,2.4vw,28px)}
+.type-specs figure{margin:0;padding:clamp(18px,2vw,26px);background:#171313;border:1px solid var(--line)}
+.type-specs .label{margin:0 0 20px;color:var(--accent)}
+.type-specs img{display:block;width:auto;max-width:100%;height:auto;max-height:34px}
+.type-specs figcaption{margin-top:20px;font:400 16px/1.45 var(--serif);color:var(--muted)}
+.spine img{display:block;width:100%;height:auto}
+.spine-acts{display:grid;grid-template-columns:var(--acts);margin:0;padding:0;list-style:none;border-top:1px solid var(--accent)}
+.spine-acts li{min-width:0;padding:16px 16px 0 14px;border-left:1px solid var(--line)}
+.spine-acts li:first-child{border-left:0;padding-left:0}
+.act{text-align:left;color:var(--ink)}
+.act .label{display:block;margin-bottom:8px;color:var(--accent)}
+.act strong{font:500 18px/1.2 var(--serif)}
+.act:hover strong{text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}
+.act::after{display:none}
+.spine-acts p{margin:8px 0 0;font:400 16px/1.45 var(--serif);color:var(--muted)}
+.board{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(40px,4vw,56px) clamp(16px,1.8vw,24px);margin:0;padding:0;list-style:none}
+.board img{width:100%;aspect-ratio:390/219;object-fit:cover;background:#e8e6e0;transition:transform .3s ease}
+.board .beat:hover img{transform:translateY(-3px)}
+.board .label{margin:16px 0 8px;color:var(--accent)}
+.board h4,.proc-cards h5,.rigs h5{margin:0 0 8px;font:500 20px/1.25 var(--serif);color:var(--ink)}
+.board p:not(.label){margin:0;font:400 16px/1.45 var(--serif);color:var(--muted)}
+.frames{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(28px,3vw,40px) clamp(16px,2vw,24px)}
+.frames figure,.proc-cards figure{margin:0}
+.frames img{width:100%;height:auto;background:#000}
+.frames figcaption{margin-top:12px;color:var(--muted)}
+.iters{display:grid;gap:clamp(16px,1.8vw,24px);margin:0;padding:0;list-style:none}
+.iters-4{grid-template-columns:repeat(4,minmax(0,1fr))}.iters-3{grid-template-columns:repeat(3,minmax(0,1fr))}.iters-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.iters .label{margin:0 0 12px;color:var(--accent)}
+.iters img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:#000}
+.iters img+img{margin-top:4px}
+.iters p:not(.label){margin:14px 0 0;font:400 16px/1.45 var(--serif);color:var(--muted)}
+.proc-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(16px,2vw,24px)}
+.proc-cards figure{display:flex;flex-direction:column;justify-content:center;align-items:center;height:clamp(180px,17vw,250px)}
+.proc-cards figure img{min-height:0;max-height:100%;width:auto;object-fit:contain}
+.proc-cards article,.rigs article{padding:clamp(20px,2.4vw,32px);background:#171313;border:1px solid var(--line)}
+.proc-cards img{display:block;max-width:100%;height:auto;margin:0 auto}
+.proc-cards figcaption{margin-top:12px;color:var(--muted)}
+.proc-cards h5{margin-top:28px}
+.proc-cards p,.rigs article>p:last-child{margin:0;font:400 17px/1.55 var(--serif);color:var(--muted)}
+.ae{margin-top:clamp(80px,8vw,128px)}
+.ae summary{cursor:pointer;list-style:none}
+.ae summary::-webkit-details-marker{display:none}
+.ae summary .study-sub{margin:0 0 clamp(28px,3vw,40px)}
+.ae:not([open]) summary .study-sub{margin-bottom:0}
+.ae summary .study-sub::before{content:"+";order:3;font:400 22px/1 var(--mono);color:var(--accent)}
+.ae[open] summary .study-sub::before{content:"−"}
+.ae summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.ae-chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 clamp(20px,2.4vw,28px);padding:0;list-style:none}
+.ae-chips li{padding:6px 10px;border:1px solid var(--line);border-radius:999px;font:400 12px/1 var(--mono);color:var(--ink)}
+.ae-tree{margin:0}
+.ae-tree img{width:100%;height:auto}
+.rigs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(16px,2vw,24px);align-items:start}
+.rigs article,.stacks>div{min-width:0}
+.rigs .label{margin:0 0 18px;color:var(--accent)}
+.rigs pre,.stacks pre{margin:0 0 20px;padding:16px 18px;overflow-x:auto;background:#0d0b0b;border:1px solid var(--line);font:400 12.5px/1.6 var(--mono);color:#d8d0c3;tab-size:2}
+.stacks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(16px,2vw,24px)}
+.stacks .label{margin:0 0 10px;color:var(--muted)}
+.stacks pre{margin:0}
+.ae-count{margin:clamp(32px,3.5vw,48px) 0 0;max-width:60em;font:400 16px/1.7 var(--serif);color:var(--muted)}
+.ae-count .label{display:block;margin-bottom:10px}
+@media (max-width:1000px){.board,.iters-4{grid-template-columns:repeat(2,minmax(0,1fr))}.study-palette{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:24px}.study-palette li:nth-child(3) span{border-radius:0 3px 3px 0}.study-palette li:nth-child(4) span{border-radius:3px 0 0 3px}.pillars,.type-specs,.stacks,.rigs{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:760px){.proc-cards figure{height:auto}.spine-acts{grid-template-columns:1fr;border-top:0}.spine-acts li{border-left:0;padding:16px 0;border-top:1px solid var(--line)}.spine-acts li:first-child{border-top-color:var(--accent)}.frames,.proc-cards,.reflect,.iters-3,.iters-2{grid-template-columns:1fr}}
+.beatmap{margin:0 0 clamp(24px,3vw,36px)}
+.beatmap img{width:100%;height:auto}
+.beatmap figcaption{margin-top:10px}
+.palette .chip{display:block;height:54px;margin:0 0 16px;border-radius:2px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08)}
+.palette dt{font-size:24px}
+.journey{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(20px,2.4vw,32px) clamp(14px,1.8vw,24px);margin:0;padding:0;list-style:none}
+.journey img{width:100%;aspect-ratio:16/9;object-fit:cover;background:#000}
+.journey .label{margin:12px 0 4px;color:var(--ink)}
+.journey p:not(.label){margin:0;font:400 17px/1.35 var(--serif);color:var(--muted)}
+.case-body>*+.series,.case-body>*+.journey,.case-body>*+.palette{margin-top:clamp(28px,3.5vw,48px)}
+.pipeline+.prose{margin-top:clamp(24px,3vw,36px)}
+.credits{margin:0;max-width:52em;font:400 17px/1.5 var(--serif);color:var(--muted)}
+@media (max-width:1000px){.journey{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:760px){.journey{grid-template-columns:repeat(2,minmax(0,1fr))}.series{grid-template-columns:1fr}}
 
 /* ==========================================================================
    Responsive

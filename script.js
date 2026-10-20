@@ -28,7 +28,7 @@ if (form && status) {
       const res = await fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } });
       if (!res.ok) throw new Error(res.status);
       form.reset();
-      status.textContent = 'Thanks — your note is on its way.';
+      status.textContent = 'Thanks—your note is on its way.';
     } catch {
       status.classList.add('error');
       status.textContent = 'That didn’t send. Please try again, or reach me on LinkedIn.';
@@ -38,7 +38,7 @@ if (form && status) {
   });
 }
 
-// Archive: Index (ruled list) or Grid (contact sheet) — the same entries, restyled.
+// Archive: Index (ruled list) or Grid (contact sheet)—the same entries, restyled.
 const archive = document.querySelector('main[data-view]');
 const toggle = document.querySelector('.view-toggle');
 if (archive && toggle) {
@@ -58,7 +58,7 @@ if (archive && toggle) {
 
 // Desk: "loose pages from the desk" is a small sandbox.
 // Phones: tap a page to pick it up and look closer.
-// Tablets and up: a row of supplies sits in the folder — a tin of pins, a tape dispenser, a pad of sticky notes,
+// Tablets and up: a row of supplies sits in the folder—a tin of pins, a tape dispenser, a pad of sticky notes,
 // a rubber stamp and a wastebasket. Pull things off them and drop them on the pages. With a mouse the pages
 // themselves can be dragged (they swing from where they're held and slide when thrown); tape holds a page until
 // it's pulled hard enough to peel; one pin lets a page turn around it, two hold it still.
@@ -838,3 +838,12 @@ if (desk) {
     }, { threshold: .2 }).observe(desk);
   }
 }
+
+// Case studies with story beats: each beat plays its film from that moment.
+document.querySelectorAll('.beat[data-t]').forEach(b => b.addEventListener('click', () => {
+  const v = b.closest('.case-body')?.querySelector('.study-film video');
+  if (!v) return;
+  const go = () => { v.currentTime = +b.dataset.t; v.play(); };
+  v.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'center' });
+  if (v.readyState >= 1) go(); else { v.preload = 'auto'; v.addEventListener('loadedmetadata', go, { once: true }); v.load(); }
+}));
